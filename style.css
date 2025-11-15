@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "yekan";
+    src: url("./Font/BYekan+/BYekan+.ttf");
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "yekan";
+    src: url("./fonts/BYekan+/BYekan+\ Bold.ttf");
+    font-weight: 700;
+}
+
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "yekan";
+}
+
+section#video-background{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+section#video-background video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  overflow: hidden;
+  border-top: 1.33px solid rgba(116, 115, 115, 255)
+}
