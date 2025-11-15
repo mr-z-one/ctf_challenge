@@ -1,22 +1,7 @@
 <!DOCTYPE html>
-<!--level-03-->
-<!--TODO:03-->
+<!--TODO:05-->
+<!--level-05-->
 <html lang="fa" dir="rtl">
-
-<?php 
-
-  if (isset($_REQUEST["jump"])){
-    if (!is_array($_REQUEST["jump"])){
-       $jump = $_REQUEST["jump"];
-       if (strtolower($jump) == "true"){
-         echo "good job!" . " " . "next level: " . "/Zx1cvq9l1n";
-         exit;
-       }
-    }
-  }
-
-?>
-
 
 <head>
     <meta charset="UTF-8">
@@ -30,13 +15,12 @@
 
 
         <section id="video-background">
-               <video  autoplay muted loop src="/static/3.mp4"></video>
+               <video  autoplay muted loop src="/static/5.mp4"></video>
                <div class="container-fluid">
                   <div class="row">
                     <div class="col d-flex justify-content-center">
                         <p class="text-white">
-                            <!--/?jump=false-->
-                            باید بپری!
+                    می توانید به مرحله بعد بروید؟
                     </p>
                     </div>
                   </div>
