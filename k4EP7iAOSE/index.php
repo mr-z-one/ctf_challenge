@@ -1,20 +1,6 @@
 <!DOCTYPE html>
-<!--TODO:05-->
-<!--level-05-->
-
-<?php 
-$cookie_name = "next_level";
-$cookie_value = "false";
-if (!isset($_COOKIE[$cookie_name])) 
-    setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
-else {
-    if ($_COOKIE[$cookie_name] == "true"){
-        echo "good job!" . " " . "next level: " . "/XmvDs0xv46";
-        exit();
-    }
-}
-?>
-
+<!--TODO:07-->
+<!--level-07-->
 <html lang="fa" dir="rtl">
 
 <head>
@@ -29,14 +15,13 @@ else {
 
 
         <section id="video-background">
-               <video  autoplay muted loop src="/static/5.mp4"></video>
+               <video  autoplay muted loop src="/static/7.mp4"></video>
                <div class="container-fluid">
                   <div class="row">
                     <div class="col d-flex justify-content-center">
                         <p class="text-white">
-                    در سکوت فرحناک آب
-                    <br>
-                    هیچ کس بادبان را ندید       
+                           
+                            چیزی اینجا نیست :(
                     </p>
                     </div>
                   </div>
