@@ -13,17 +13,37 @@
 
 <body>
 
+        <?php
 
+            if (strtoupper($_SERVER["REQUEST_METHOD"]) == "POST"){
+                if (isset($_POST["begzar"])){
+                    echo "good job! next level: /jJoldOz6Le";
+                    exit();
+                }
+            }
+
+        ?>
         <section id="video-background">
-               <video  autoplay muted loop src="/static/4.mp4"></video>
+               <video  autoplay muted loop src="/static/8.mp4"></video>
                <div class="container-fluid">
                   <div class="row">
-                    <div class="col d-flex justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                       
                         <p class="text-white">
-                           
-                       next
+                       از سنگ بگذر!
+                  
                     </p>
                     </div>
+                          <div class="col-12 d-flex justify-content-center">
+                       
+                                        <form method="post">
+                                        <div class="form-group">
+                                            <input type="hidden" class="form-control" id="begzar" name="begzar" value="بگزر" aria-describedby="emailHelp" placeholder="بگذر">
+                                        </div>
+                                    
+                                       
+                                        </form>
+                        </div>
                   </div>
                </div>
         </section>
