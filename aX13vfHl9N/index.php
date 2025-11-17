@@ -2,14 +2,14 @@
 <!--level-03-->
 <!--TODO:03-->
 <html lang="fa" dir="rtl">
-
+<?php    require_once __DIR__ . "/../level.php"?>
 <?php 
 
   if (isset($_REQUEST["jump"])){
     if (!is_array($_REQUEST["jump"])){
        $jump = $_REQUEST["jump"];
        if (strtolower($jump) == "true"){
-         echo "good job!" . " " . "next level: " . "/Zx1cvq9l1n";
+         echo "good job!" . " " . "next level: " . $LEVELS["4"];
          exit;
        }
     }

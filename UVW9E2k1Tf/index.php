@@ -3,9 +3,8 @@
 <!--level-10-->
 
 
-
 <html lang="fa" dir="rtl">
-
+<?php    require_once __DIR__ . "/../level.php"?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,16 +16,19 @@
 <body>
 
 
+<?php
+
+header(header: "next_level: good job! next level: ". $LEVELS["11"]);
+
+?>
         <section id="video-background">
-               <video  autoplay muted loop src="/static/5.mp4"></video>
+               <video  autoplay muted loop src="/static/10.mp4"></video>
                <div class="container-fluid">
                   <div class="row">
                     <div class="col d-flex justify-content-center">
                         <p class="text-white">
-                    در سکوت فرحناک آب
-                    <br>
-                    هیچ کس بادبان را ندید       
-                    </p>
+                                سربرگ ها نشانه یک تحول هستند
+                        </p>
                     </div>
                   </div>
                </div>

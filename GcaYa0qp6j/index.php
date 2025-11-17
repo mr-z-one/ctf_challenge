@@ -2,7 +2,7 @@
 <!--TODO:08-->
 <!--level-08-->
 <html lang="fa" dir="rtl">
-
+<?php    require_once __DIR__ . "/../level.php"?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 
             if (strtoupper($_SERVER["REQUEST_METHOD"]) == "POST"){
                 if (isset($_POST["begzar"])){
-                    echo "good job! next level: /jJoldOz6Le";
+                    echo "good job!" . " " . "next level: " . $LEVELS["9"];
                     exit();
                 }
             }

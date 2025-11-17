@@ -2,6 +2,8 @@
 <!--TODO:05-->
 <!--level-05-->
 
+<?php    require_once __DIR__ . "/../level.php"?>
+
 <?php 
 $cookie_name = "next_level";
 $cookie_value = "false";
@@ -9,7 +11,7 @@ if (!isset($_COOKIE[$cookie_name]))
     setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 else {
     if ($_COOKIE[$cookie_name] == "true"){
-        echo "good job!" . " " . "next level: " . "/XmvDs0xv46";
+        echo "good job!" . " " . "next level: " . $LEVELS["6"];
         exit();
     }
 }

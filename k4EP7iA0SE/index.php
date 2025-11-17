@@ -2,5 +2,7 @@
 TODO: redirect-->
 
 <?php 
-echo "good job!" . " " . "next level: " . "/GcaYa0qp6j";
+require_once __DIR__ . "/../level.php";
+
+echo "good job!" . " " . "next level: " . $LEVELS["8"];
 header('Location: '. "/k4EP7iAOSE");
