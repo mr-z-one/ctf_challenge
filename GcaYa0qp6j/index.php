@@ -38,7 +38,7 @@
                        
                                         <form method="post">
                                         <div class="form-group">
-                                            <input type="hidden" class="form-control" id="begzar" name="begzar" value="بگزر" aria-describedby="emailHelp" placeholder="بگذر">
+                                            <input type="hidden" class="form-control" id="begzar" name="begzar" value="بگذر" aria-describedby="emailHelp" placeholder="بگذر">
                                         </div>
                                     
                                        
